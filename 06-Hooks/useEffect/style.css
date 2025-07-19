@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.btn {
+  margin-left: 50px;
+  display: flex;
+  gap: 5px;
+}
+.btn button {
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.counter {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
+}
+.counter button {
+  padding: 5px 10px;
+  border: 2px solid darkblue;
+  border-radius: 3px;
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  margin-right: 10px;
+}
