@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dimgrey;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.stopWatch {
+  width: 500px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: darkolivegreen;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
